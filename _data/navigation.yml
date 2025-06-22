@@ -1,9 +1,17 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "首頁"
+    url: /
+
+  - title: "分類"
+    children:
+      - title: "Zigbee"
+        url: /categories/zigbee/
+      - title: "Rust"
+        url: /categories/rust/
+
+  - title: "標籤"
+    children:
+      - title: "嵌入式"
+        url: /tags/embedded/
+      - title: "工具"
+        url: /tags/tools/
